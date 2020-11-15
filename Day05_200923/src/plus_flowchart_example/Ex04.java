@@ -1,0 +1,14 @@
+package plus_flowchart_example;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		int hap=0;
+		
+		for(int a=1; a<=100; a++) {
+			hap += a; 
+		}
+		System.out.printf("%d", hap);
+	}
+
+}
